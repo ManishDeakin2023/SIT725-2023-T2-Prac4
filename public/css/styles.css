@@ -1,0 +1,33 @@
+.navbar-size {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #6527BE;
+    }
+.user-image-size {
+    height: 56px;
+    margin: 4px 0;
+    }
+.main-body {
+    background-color: #9681EB;
+    color: rgb(24, 24, 24);
+    height: calc(200vh - 64px);
+    }
+.materialboxed-image {
+    margin: 0 auto;
+    height: 400px;
+    }
+.click-me-button {
+
+    background-color: #e63946;
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin: 20px;
+    color: #000000;
+    box-shadow: 4px 4px 0 #d90429;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+    }
+.click-me-button:active{
+    transform:translateX(4px) translateY(4px);
+    box-shadow: 0 0 0 #d90429;
+    }
