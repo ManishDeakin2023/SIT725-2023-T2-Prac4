@@ -37,7 +37,7 @@ function postCat(cat) {
 }
 
 function getAllCats() {
-    $.get('/api/cat', (result) => {
+    $.get('/api/cats', (result) => {
         if (result.statusCode === 200) {
             addCards(result.data);
         }
@@ -45,14 +45,13 @@ function getAllCats() {
 }
 
 
-
-$(document).ready(function () {
+$(document).ready(function() {
     $('.materialboxed').materialbox();
     $('#formSubmit').click(() => {
         submitForm();
     });
 
-    
+
     $('.modal').modal();
     getAllCats();
 });
